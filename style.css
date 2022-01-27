@@ -1,0 +1,91 @@
+body{
+    /* height: 100%; */
+    margin: 0;
+}
+
+main{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url(obrazky/meal.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center; */
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    
+}
+
+.text  {
+    /* padding: 0 30%; */
+    color: white;
+    text-align: center;   
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    /* Nastavit responzivní velikost písma */
+    padding-top: 20%;
+    margin: 0;
+}
+
+h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 56px;
+    margin: 0;
+    padding: 0;
+}
+
+.time{
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 40px;
+    margin: 10px 20px;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 36px;
+    
+}
+
+.contact{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 20px;
+}
+
+@media screen and (max-width: 700px){
+    h1{
+        font-size: 70px;
+        padding-top: 35%;
+
+    }
+
+    h2{
+        font-size: 42px;
+    }
+
+    .text{
+        padding: 0 5%;
+    }
+
+    .contact a{
+        font-size: 24px;
+    }
+
+    .time{
+        font-size: 24px;
+    }
+}
+    
